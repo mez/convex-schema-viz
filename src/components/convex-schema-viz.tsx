@@ -51,8 +51,6 @@ const getTablesFromConvexSchema = (): Table[] => {
     });
   }
 
-  console.log(tables);
-
   return tables;
 };
 
