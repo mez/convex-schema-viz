@@ -1,0 +1,32 @@
+{
+  "name": "convex_schema_viz",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "biome check src",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@xyflow/react": "^12.3.1",
+    "clsx": "^2.1.1",
+    "convex": "^1.16.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.3",
+    "@types/node": "^22.7.5",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "autoprefixer": "^10.4.20",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.8"
+  }
+}
